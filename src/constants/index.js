@@ -234,7 +234,7 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'LendSQR Project',
         description: 'Developed a web application based on react which reads mock api and displays it on the site, making it accessible to be modify based on staff needs',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        link: 'https://lendsqr-project-xi.vercel.app/',
     },
     {
         iconUrl: app,
