@@ -2,3 +2,4 @@ To run - npm run dev
 Firstly install required packages through - npm install
 Secondly - All 3D models can be found on Sketchfab
 Thirdly - You can convert the models into react format by going to gltf.pmnd.rs
+Fourthly - You can use https://www.emailjs.com/ for your email services
