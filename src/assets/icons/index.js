@@ -27,7 +27,9 @@ import githubp from './github-purple.svg'
 import linkedinp from './linkedin-purple.svg'
 import phonep from './phone-purple.svg'
 import app from './icons8-app-100.svg'
-
+import next from "./Next.js.svg"
+import skillseed from "./skillseeds_limited_logo.jpg"
+import webflow from "./Webflow.svg"
 export {
     css,
     git,
@@ -57,5 +59,5 @@ export {
     firebase,
     mysql,
     php,
-    python
+    python, next, skillseed, webflow
 }

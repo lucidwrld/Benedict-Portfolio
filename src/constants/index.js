@@ -24,7 +24,7 @@ import {
     app,
     phonep,
     githubp,
-    linkedinp
+    linkedinp, next, skillseed, webflow
 } from "../assets/icons";
 
 export const skills = [
@@ -81,6 +81,15 @@ export const skills = [
         type: "Frontend ",
     },
     {
+        imageUrl: webflow,
+        name: "Webflow",
+        type: "Frontend ",
+    },{
+        imageUrl: next,
+        name: "Next",
+        type: "Frontend ",
+    },
+    {
         imageUrl: ccc,
         name: "C++",
         type: "Backend ",
@@ -108,6 +117,18 @@ export const skills = [
 ];
 
 export const experiences = [
+    {
+        title: "Frontend Developer",
+        company_name: "Skillseed Limited",
+        icon: skillseed,
+        iconBg: "#ffffff",
+        date: "Feb 2024 - Present",
+        points: [
+            "Effectively completed all client's projects under company's name to suit the personal desires of the clients while adding a touch of artistic creativity.",
+            "Organized and prioritized work to complete projects in a timely, eﬃcient manner.",
+            "Maintained an eagerness to add to my knowledge and skills and operated with a willingness to embrace chance and adapt strategies accordingly.",
+        ],
+    },
     {
         title: "Frontend Developer",
         company_name: "Oakchain",
@@ -222,6 +243,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: app,
+        theme: 'btn-back-yellow',
+        name: 'Oakchain',
+        description: 'A web3 platform',
+        link: 'https://www.oakchain.io/',
+    },
     {
         iconUrl: app,
         theme: 'btn-back-yellow',
