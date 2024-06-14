@@ -117,6 +117,7 @@ export const skills = [
 ];
 
 export const experiences = [
+    
     {
         title: "Frontend Developer",
         company_name: "Skillseed Limited",
