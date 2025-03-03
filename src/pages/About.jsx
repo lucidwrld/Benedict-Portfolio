@@ -32,15 +32,21 @@ const About = () => {
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
-            <div className='block-container w-20 h-20' key={skill.name}>
-              <div className='btn-back rounded-xl' />
-              <div className='btn-front rounded-xl flex justify-center items-center'>
-                <img
-                  src={skill.imageUrl}
-                  alt={skill.name}
-                  className='w-1/2 h-1/2 object-contain'
-                />
+            <div className="flex flex-col gap-7 ">
+              
+              <div className='block-container w-20 h-20' key={skill.name}>
+                
+                <div className='btn-back rounded-xl' />
+                  
+                <div className='btn-front rounded-xl flex justify-center items-center'>
+                  <img
+                    src={skill.imageUrl}
+                    alt={skill.name}
+                    className='w-1/2 h-1/2 object-contain'
+                  />
+                </div>
               </div>
+              <h3 className="text-white  text-[12px]">{skill.name}</h3>
             </div>
           ))}
         </div>
@@ -89,6 +95,7 @@ const About = () => {
                     style={{ margin: 0 }}
                   >
                     {experience.company_name}
+                    <span className="ml-2 text-gray-500">({experience.date})</span>
                   </p>
                 </div>
 

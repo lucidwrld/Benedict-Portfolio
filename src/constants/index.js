@@ -119,12 +119,36 @@ export const skills = [
 export const experiences = [
     
     {
+        title: "Lead Frontend Developer",
+        company_name: "Skillseed Limited",
+        icon: skillseed,
+        iconBg: "#ffffff",
+        date: "Nov 2024 - Present",
+        points: [
+            "Built a seamless testimonial creation & sharing platform – Users can generate testimonial links and embed them on their websites.",
+            "Developed the embed feature – Allowed users to copy testimonials as iframe codes instead of raw HTML.",
+            "Implemented infinite scrolling & dynamic UI – Ensured smooth navigation when displaying testimonials.",
+            "Optimized for a seamless UX – Ensured fast page loads, a clean UI with Tailwind CSS, and responsive layouts.",
+            "Integrated real-time calling functionality – Used ZEGOCLOUD for instant one-to-one and webinar-style calls.",
+            "Developed an automated webinar feature – Users receive automatic call notifications at scheduled times.",
+            "Built a user-friendly consultant dashboard – Consultants can manage appointments, webinars, and user interactions.",
+            "Implemented secure authentication & token-based access – Ensured secure login and token-based session handling.",
+            "Optimized performance & responsiveness – Ensured that all pages load quickly and function well on all devices.",
+            "Successfully led frontend development for multiple high-impact projects.",
+        ],
+    },
+    {
         title: "Frontend Developer",
         company_name: "Skillseed Limited",
         icon: skillseed,
         iconBg: "#ffffff",
-        date: "Feb 2024 - Present",
+        date: "Feb 2024 - Nov 2024",
         points: [
+            "Handled SEO & analytics integration – Integrated Google Analytics & Firebase Analytics to track user engagement.",
+            "Developed a modern, interactive UI – Built a visually appealing and functional property listing experience.",
+            "Implemented a smooth property search & filtering system – Users can search properties based on categories, locations, and preferences.",
+            "Created a scalable component architecture – Ensured modular and reusable components for efficiency.",
+            "Improved performance & UI/UX across all applications using Next.js, Tailwind CSS, and optimized API calls.",
             "Effectively completed all client's projects under company's name to suit the personal desires of the clients while adding a touch of artistic creativity.",
             "Organized and prioritized work to complete projects in a timely, eﬃcient manner.",
             "Maintained an eagerness to add to my knowledge and skills and operated with a willingness to embrace chance and adapt strategies accordingly.",
@@ -135,7 +159,7 @@ export const experiences = [
         company_name: "Oakchain",
         icon: oakchain,
         iconBg: "#ffffff",
-        date: "July 2023 - Present",
+        date: "Jul 2023 - Aug 2024",
         points: [
             "Developed the company's landing page, maintaining the ﬁgma design provided while maintaining it's web responsiveness.",
             "Tested, debugged and optimized lines of code of the company's website.",
@@ -149,7 +173,7 @@ export const experiences = [
         company_name: "NSIA Insurance",
         icon: nsialogo,
         iconBg: "#ffffff",
-        date: "Jan 2023 - June 2023",
+        date: "Jan 2023 - Jun 2023",
         points: [
             "Eﬀectively established a 100% database structure based on ﬁrebase database and implemented it on the company’s website which runs on Angular framework, the structure provides speciﬁc staﬀ members ability to access and modify data being displayed on the company’s website.",
             "Ensured all updates made to the website were pushed to the company’s GitHub repository.",
@@ -177,7 +201,7 @@ export const experiences = [
         company_name: "SideHustle",
         icon: sideH,
         iconBg: "#ffffff",
-        date: "March 2023 - April 2023",
+        date: "Mar 2023 - Apr 2023",
         points: [
             "Developed well detailed websites to improve user’s experience and quality.",
             "Eﬀectively implemented 100% web responsiveness in each website assigned to me and ensured it was suited for user needs.",
@@ -190,7 +214,7 @@ export const experiences = [
         company_name: "GDSC",
         icon: gdsclogo,
         iconBg: "#ffffff",
-        date: "September 2022 - Present",
+        date: "Sep 2022 - Aug 2024",
         points: [
             "Organized and prioritized work to complete assignments in a timely, eﬃcient manner.",
             "Mentored new junior front-end developers on team in expanding react and angular.",
@@ -199,18 +223,7 @@ export const experiences = [
             "Tested, debugged and optimized the GDSC website.",
         ],
     },
-    {
-        title: "Artificial Intelligence Engineer Intern",
-        company_name: "RADICALX",
-        icon: radi,
-        iconBg: "#ffffff",
-        date: "October 2023 - Present",
-        points: [
-            "Collaborated with team members to implement and ﬁne-tune neural networks using TensorFlow and Keras, gaining practical experience in deep learning architectures.",
-            "Completely implemented all weekly tasks eﬃciently before their deadline.",
-            "Operated with a willingness to embrace chance and adapt strategies accordingly.",
-        ],
-    },
+    
     {
         title: "Ambassador",
         company_name: "CowryWise",
