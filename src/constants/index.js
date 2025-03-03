@@ -86,7 +86,7 @@ export const skills = [
         type: "Frontend ",
     },{
         imageUrl: next,
-        name: "Next",
+        name: "Next Js",
         type: "Frontend ",
     },
     {

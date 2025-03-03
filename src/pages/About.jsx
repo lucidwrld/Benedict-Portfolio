@@ -22,8 +22,8 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-white'>
         <p>
-          Software Engineer based in Nigeria, specializing in technical
-          education through hands-on learning and building applications.
+        Frontend Developer with 3+ years of experience building responsive websites and web applications. Proficient in Next Js,React Js, JavaScript, and CSS
+        frameworks like Tailwind and Bootstrap. Passionate about creating user-friendly interfaces and improving web performance.
         </p>
       </div>
 

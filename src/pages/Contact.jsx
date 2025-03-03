@@ -1,7 +1,7 @@
 import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
-
+import { toast } from "react-toastify";
 import { Jager } from "../models";
 import useAlert from "../hooks/useAlert";
 import { Alert, Loader } from "../components";
@@ -39,11 +39,12 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          showAlert({
+           toast.success("Thank you for your message 😃")
+         /*  showAlert({
             show: true,
             text: "Thank you for your message 😃",
             type: "success",
-          });
+          }); */
 
           setTimeout(() => {
             hideAlert(false);
@@ -58,13 +59,14 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
+          toast.error("I didn't receive your message 😢")
           setCurrentAnimation("idle");
 
-          showAlert({
+          /* showAlert({
             show: true,
             text: "I didn't receive your message 😢",
             type: "danger",
-          });
+          }); */
         }
       );
   };

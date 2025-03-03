@@ -15,7 +15,7 @@ const Projects = () => {
       </h1>
 
       <p className='text-white mt-2 leading-relaxed'>
-      Over the years, I've undertaken various projects, but the ones dearest to me are these. Several of them are open-source, so if you encounter something that captures your interest, don't hesitate to delve into the codebase and share your ideas for potential improvements. Your collaboration is greatly appreciated!
+      Welcome to my project showcase! Here, you'll find a collection of platforms I've worked on, each designed to solve real-world problems with seamless user experiences and modern technology. From expert consultations and testimonial management to event ticketing and blockchain solutions, these projects reflect my passion for building functional, user-friendly, and scalable applications. Explore below to learn more! 🚀
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
