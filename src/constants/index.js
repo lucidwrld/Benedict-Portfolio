@@ -260,10 +260,39 @@ export const projects = [
     {
         iconUrl: app,
         theme: 'btn-back-yellow',
+        name: 'Confidant',
+        description: 'An online platform connecting users with expert consultants for personalized advice, mentorship, and webinars.',
+        link: 'https://theconfidant.help/',
+    },
+    {
+        iconUrl: app,
+        theme: 'btn-back-yellow',
+        name: 'Avowal',
+        description: 'A platform that allows users to create, share, and collect testimonials to build trust and credibility.',
+        link: 'https://avowal.io/',
+    },
+    {
+        iconUrl: app,
+        theme: 'btn-back-yellow',
+        name: 'Tixrush',
+        description: 'An event ticketing platform that simplifies ticket purchasing and management for concerts, sports, and live events.',
+        link: 'https://www.tixrush.com/',
+    },
+    {
+        iconUrl: app,
+        theme: 'btn-back-yellow',
+        name: 'Mecasa',
+        description: 'A home services marketplace that connects users with trusted professionals for various household needs.',
+        link: 'https://mecasa.io/',
+    }, 
+    {
+        iconUrl: app,
+        theme: 'btn-back-yellow',
         name: 'Oakchain',
-        description: 'A web3 platform',
+        description: 'A blockchain-based platform providing secure and transparent digital identity and verification solutions.',
         link: 'https://www.oakchain.io/',
     },
+    
     {
         iconUrl: app,
         theme: 'btn-back-yellow',

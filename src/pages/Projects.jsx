@@ -33,7 +33,7 @@ const Projects = () => {
             </div>
 
             <div className='mt-5 flex flex-col'>
-              <h4 className='text-2xl font-poppins font-semibold'>
+              <h4 className='text-2xl font-poppins text-white font-semibold'>
                 {project.name}
               </h4>
               <p className='mt-2 text-white'>{project.description}</p>
